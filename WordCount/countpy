@@ -1,0 +1,6 @@
+f = open("results.txt")
+sum = 0
+for line in f: 
+	split = line.split(":")
+	sum = sum + 1
+print sum
